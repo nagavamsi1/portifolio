@@ -1,0 +1,226 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: #1e3a5f;
+    padding: 15px 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+}
+
+nav h1 {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #f0db4f;
+}
+
+.section {
+    padding: 60px 0;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 28px;
+    color: #1e3a5f;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #1e3a5f;
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+footer {
+    background-color: #1e3a5f;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+}
+
+footer a {
+    color: #f0db4f;
+    margin-left: 10px;
+}
+
+footer a:hover {
+    color: #ffffff;
+} */
+
+/* Reset and Box Sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0; /* Background color for the whole body */
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    position: sticky;
+    top: 0;
+    background-color: #1e3a5f; /* Dark blue for header */
+    padding: 15px 0;
+    z-index: 1000;
+}
+
+/* Navigation Bar Styling */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+}
+
+nav h1 {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #f0db4f; /* Highlight on hover */
+}
+
+/* Section Styling with Background Colors */
+.section {
+    padding: 60px 0;
+    margin-bottom: 20px;
+}
+
+#profile {
+    background-color: #f0f8ff; /* Light blue for profile section */
+}
+
+#education {
+    background-color: #ffffff; /* White for education section */
+}
+
+#skills {
+    background-color: #e8f5e9; /* Light green for skills section */
+}
+
+#certificates {
+    background-color: #fff3e0; /* Light orange for certificates section */
+}
+
+#projects {
+    background-color: #fce4ec; /* Light pink for projects section */
+}
+
+#interests {
+    background-color: #f3e5f5; /* Light purple for interests section */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Section Headings */
+h2 {
+    font-size: 28px;
+    color: #1e3a5f;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #1e3a5f;
+    display: inline-block;
+}
+
+/* Unordered List Styling */
+ul {
+    list-style: none;
+}
+
+ul li {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #1e3a5f; /* Dark blue for footer */
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+}
+
+footer a {
+    color: #f0db4f; /* Gold for LinkedIn link */
+    margin-left: 10px;
+}
+
+footer a:hover {
+    color: #ffffff;
+}
